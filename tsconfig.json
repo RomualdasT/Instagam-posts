@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "jsx": "preserve",
+    "lib": ["dom", "esnext"],
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "baseUrl": "./",
+    "noImplicitAny": false,
+    "rootDir": "./",
+    "sourceMap": true,
+    "target": "es5",
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules", "public", ".cache"]
+}
